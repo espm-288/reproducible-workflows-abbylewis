@@ -1,0 +1,6 @@
+library(renv)
+renv::activate()
+install.packages("yaml")
+install.packages("tidyverse")
+renv::hydrate()
+renv::snapshot()
