@@ -2,7 +2,7 @@
 title: "example-notebook.qmd"
 format: html
 editor: visual
-author: "abby"
+author: Abby Lewis
 ---
 
 ## Quarto
@@ -15,8 +15,7 @@ When you click the **Render** button a document will be generated that includes 
 
 ```{r}
 1 + 1
-
-fdjksa
+library(usethis)
 ```
 
 You can add options to executable code like this
